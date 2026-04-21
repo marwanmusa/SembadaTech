@@ -62,7 +62,7 @@ export default function HeroSection() {
               alt="3D model of structural steel stairs and fire escapes"
               camera-controls
               auto-rotate
-              camera-target={steelStairsCameraTarget}
+              // camera-target={steelStairsCameraTarget}
               camera-orbit={steelStairsCameraOrbit}
               field-of-view="22deg"
               rotation-per-second="18deg"
