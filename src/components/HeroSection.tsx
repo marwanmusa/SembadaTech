@@ -12,7 +12,7 @@ export default function HeroSection() {
   const textHeroHeading = "Precision Steel Detailing. AISC Compliant. US Standards.";
   const textHeroBody = `Sembada supports fabricators, detailers, and general contractors with coordinated models, clear shop packages, and field-aware deliverables that reduce downstream rework.`;
   const steelStairsModel = `${import.meta.env.BASE_URL}models/steel_stairs__fire_escapes.gltf`;
-  const steelStairsCameraTarget = "-1925m 2340m -16630m";
+  // const steelStairsCameraTarget = "-1925m 2340m -16630m";
   const steelStairsCameraOrbit = "-35deg 72deg 14000m";
   return (
     <section id="top" className="relative overflow-hidden border-b border-white/10">
@@ -62,7 +62,7 @@ export default function HeroSection() {
               alt="3D model of structural steel stairs and fire escapes"
               camera-controls
               auto-rotate
-              camera-target={steelStairsCameraTarget}
+              // camera-target={steelStairsCameraTarget}
               camera-orbit={steelStairsCameraOrbit}
               field-of-view="22deg"
               rotation-per-second="18deg"
