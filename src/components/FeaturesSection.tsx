@@ -28,17 +28,18 @@ const features = [
 ];
 
 export default function FeaturesSection() {
+  const textSectionHeading = "Detailing packages built for the shop, the trailer, and the field.";
+  const textBody = `Every scope is structured to support practical fabrication workflows and fast field decision-making,
+                    especially for teams reviewing documents on tablets or laptops at active job sites.`;
   return (
     <section id="services" className="py-16 sm:py-20">
       <div className="section-shell">
         <p className="section-kicker">Core Services</p>
         <h2 className="section-heading mt-3">
-          Detailing packages built for the shop, the trailer, and the field.
+          {textSectionHeading}
         </h2>
         <p className="body-copy mt-4 max-w-3xl">
-          Every scope is structured to support practical fabrication workflows and
-          fast field decision-making, especially for teams reviewing documents on
-          tablets or laptops at active job sites.
+          {textBody}
         </p>
 
         <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-4">

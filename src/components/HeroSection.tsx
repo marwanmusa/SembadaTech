@@ -7,6 +7,9 @@ const highlights = [
 ];
 
 export default function HeroSection() {
+  const textHeroKicker = "US Steel Detailing Delivery";
+  const textHeroHeading = "Precision Steel Detailing. AISC Compliant. US Standards.";
+  const textHeroBody = `Sembada supports fabricators, detailers, and general contractors with coordinated models, clear shop packages, and field-aware deliverables that reduce downstream rework.`;
   return (
     <section id="top" className="relative overflow-hidden border-b border-white/10">
       <div className="absolute inset-0 bg-hero-grid bg-[size:44px_44px] opacity-20" />
@@ -14,14 +17,12 @@ export default function HeroSection() {
 
       <div className="section-shell relative grid gap-10 py-14 md:py-20 xl:grid-cols-[1.1fr_0.9fr] xl:items-center xl:py-24">
         <div>
-          <p className="section-kicker">US Steel Detailing Delivery</p>
+          <p className="section-kicker">{textHeroKicker}</p>
           <h1 className="mt-4 max-w-4xl text-4xl font-semibold leading-tight text-white sm:text-5xl xl:text-6xl">
-            Precision Steel Detailing. AISC Compliant. US Standards.
+            {textHeroHeading}
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-8 text-slate-200 sm:text-lg">
-            Sembada supports fabricators, detailers, and general contractors with
-            coordinated models, clear shop packages, and field-aware deliverables that
-            reduce downstream rework.
+            {textHeroBody}
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
