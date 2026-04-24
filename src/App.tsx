@@ -5,8 +5,15 @@ import Navbar from "./components/Navbar";
 import PortfolioSection from "./components/PortfolioSection";
 import ProcessSection from "./components/ProcessSection";
 import StatsSection from "./components/StatsSection";
+import CDRAdmin from "./pages/admin/cdr/CDRAdmin";
 
 function App() {
+  const isCDRAdminRoute = window.location.pathname === "/admin/cdr";
+
+  if (isCDRAdminRoute) {
+    return <CDRAdmin />;
+  }
+
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
       <Navbar />

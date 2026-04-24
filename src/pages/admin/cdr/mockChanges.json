@@ -1,0 +1,38 @@
+[
+  {
+    "id": "chg-001",
+    "title": "Beam callout revised",
+    "description": "Grid B3 beam annotation updated from W18x35 to W21x44.",
+    "page_number": 1,
+    "bbox": { "x": 18, "y": 22, "width": 24, "height": 10 },
+    "change_type": "text",
+    "confidence": 0.98
+  },
+  {
+    "id": "chg-002",
+    "title": "Column base plate geometry",
+    "description": "Base plate footprint widened near the south-east column line.",
+    "page_number": 1,
+    "bbox": { "x": 60, "y": 58, "width": 16, "height": 14 },
+    "change_type": "graphics",
+    "confidence": 0.94
+  },
+  {
+    "id": "chg-003",
+    "title": "Stair landing dimension",
+    "description": "Landing clearance note added to stair detail sheet.",
+    "page_number": 2,
+    "bbox": { "x": 28, "y": 35, "width": 20, "height": 12 },
+    "change_type": "text",
+    "confidence": 0.92
+  },
+  {
+    "id": "chg-004",
+    "title": "Connection plate detail",
+    "description": "Bolted connection detail redrawn with updated gusset profile.",
+    "page_number": 2,
+    "bbox": { "x": 63, "y": 24, "width": 18, "height": 18 },
+    "change_type": "graphics",
+    "confidence": 0.89
+  }
+]
