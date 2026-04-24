@@ -1,15 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 import {
   ArrowLeftRight,
-  Binary,
   CheckCircle2,
   Menu,
   X,
   FileCog,
   FileDiff,
-  HardHat,
   History,
-  Sparkles,
 } from "lucide-react";
 import ChangeList from "./ChangeList";
 import DrawingPreview from "./DrawingPreview";
